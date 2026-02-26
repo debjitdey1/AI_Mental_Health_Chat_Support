@@ -482,7 +482,7 @@ export const getUserSessions = async (
           if (!metadataResponse.ok) {
             throw new Error(
               `Failed to fetch metadata: ${metadataResponse.statusText}`
-            );¸
+            );
           }
 
           const metadata = await metadataResponse.json();
